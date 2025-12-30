@@ -1,0 +1,84 @@
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+.settings/
+.project
+.classpath
+
+# ===== Build =====
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Maven =====
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Environment =====
+.env
+.env.local
+.env.*.local
+*.env
+application-local.yml
+application-local.properties
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Test =====
+/coverage/
+*.exec
+test-output/
+
+# ===== SonarQube =====
+.scannerwork/
+.sonar/
+
+# ===== Terraform =====
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ===== LocalStack =====
+.localstack/
+volume/
+
+# ===== Kubernetes =====
+*.kubeconfig
+
+# ===== Secrets (NUNCA commitar!) =====
+**/secrets/
+*.pem
+*.key
+*.p12
+*.jks
