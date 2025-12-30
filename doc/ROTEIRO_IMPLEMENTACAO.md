@@ -34,12 +34,12 @@ Sprint 11 ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | Sprint | Foco | Módulos Teóricos | Estimativa |
 |--------|------|------------------|------------|
-| 0 | Setup + DDD Básico | 3 (OOP/SOLID), Intro DDD | 3-4 dias |
-| 1 | Account Service Completo | 4 (Spring), 5 (JPA), Hexagonal | 5-6 dias |
-| 2 | Transfer + Event Sourcing | 1 (Streams), 6 (Arquitetura) | 5-6 dias |
-| 3 | Kafka + CQRS | 6 (Kafka), 1 (Concorrência) | 4-5 dias |
-| 4 | Gateway + Eureka | 6 (Microsserviços), 4 (Spring Cloud) | 3-4 dias |
-| 5 | Docker + CI/CD + Tracing | 7 (Testes), 8 (DevOps) | 4-5 dias |
+| 0 | Setup + DDD + **Spring Modulith** | 3, 13 (Modulith) | 3-4 dias |
+| 1 | Account Service (Hexagonal) | 4 (Spring), 5 (JPA), 13 | 5-6 dias |
+| 2 | Transfer + Event Sourcing + **Idempotência** | 1, 6, 13 (AOP) | 5-6 dias |
+| 3 | Kafka + CQRS + **Contract Testing** | 6, 7 (Contract) | 4-5 dias |
+| 4 | Gateway + **Keycloak OAuth2** | 6, 12 (Segurança) | 4-5 dias |
+| 5 | Docker + CI/CD + **DevSecOps** | 7, 8 (DevSecOps) | 4-5 dias |
 | 6 | 🆕 Pix Automático | State Machine, Scheduler | 4-5 dias |
 | 7 | 🆕 Pix Parcelado | Strategy Pattern, Cálculos | 5-6 dias |
 | 8 | ☸️ Kubernetes | 10 (Kubernetes) | 4-5 dias |
@@ -47,7 +47,7 @@ Sprint 11 ░░░░░░░░░░░░░░░░░░░░░░░�
 | 10 | 🏗️ Terraform | 11 (Terraform) | 4-5 dias |
 | 11 | 🚀 Integração Final | Todos | 3-4 dias |
 
-**Total Estimado:** 51-60 dias de estudo intensivo (~10-12 semanas)
+**Total Estimado:** 55-65 dias de estudo intensivo (~12-14 semanas)
 
 ---
 
@@ -65,11 +65,13 @@ Criar a estrutura do projeto e implementar os primeiros Value Objects usando TDD
 | Value Objects | `MODULO_03_OOP_SOLID.md` | 3.5, 3.6 |
 | Equals e HashCode | `MODULO_01_FUNDAMENTOS_JAVA.md` | 1.3 |
 | Records | `MODULO_02_JAVA_MODERNO.md` | 2.1 |
+| **Spring Modulith** | `MODULO_13_SPRING_MODULITH.md` | 13.1, 13.2 🆕 |
 
 **Leitura complementar (conceitos):**
 - DDD: O que são Value Objects vs Entities
 - Arquitetura Hexagonal: Conceito de Ports & Adapters
 - TDD: Ciclo Red-Green-Refactor
+- **Spring Modulith: Validação de arquitetura em tempo de teste** 🆕
 
 ### 🛠️ Implemente
 

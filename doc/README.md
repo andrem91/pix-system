@@ -12,21 +12,23 @@
 |---------|----------|---------|
 | [MODULO_01_FUNDAMENTOS_JAVA.md](MODULO_01_FUNDAMENTOS_JAVA.md) | Collections, Streams, Concorrência, Memória | 3 semanas |
 | [MODULO_02_JAVA_MODERNO.md](MODULO_02_JAVA_MODERNO.md) | Records, Sealed Classes, Pattern Matching | 1 semana |
-| [MODULO_03_OOP_SOLID.md](MODULO_03_OOP_SOLID.md) | Princípios SOLID, Design Patterns | 1 semana |
+| [MODULO_03_OOP_SOLID.md](MODULO_03_OOP_SOLID.md) | Princípios SOLID, Design Patterns, DDD | 1 semana |
 | [MODULO_04_SPRING.md](MODULO_04_SPRING.md) | DI, Transações, Security, Exception Handling | 2 semanas |
 | [MODULO_05_JPA_PERSISTENCIA.md](MODULO_05_JPA_PERSISTENCIA.md) | Entity Lifecycle, N+1, Locking, Flyway | 2 semanas |
 | [MODULO_06_ARQUITETURA.md](MODULO_06_ARQUITETURA.md) | REST, Feign, Kafka, Circuit Breaker, DDD | 2 semanas |
-| [MODULO_07_TESTES.md](MODULO_07_TESTES.md) | JUnit 5, Mockito, TestContainers, WireMock | 1 semana |
-| [MODULO_08_DEVOPS.md](MODULO_08_DEVOPS.md) | Docker, CI/CD, Observabilidade | 1 semana |
+| [MODULO_07_TESTES.md](MODULO_07_TESTES.md) | JUnit 5, Mockito, TestContainers, Contract | 1 semana |
+| [MODULO_08_DEVOPS.md](MODULO_08_DEVOPS.md) | Docker, CI/CD, Observabilidade, DevSecOps | 1 semana |
 | [MODULO_09_AWS_CLOUD.md](MODULO_09_AWS_CLOUD.md) | ☁️ IAM, RDS, SQS/SNS, S3, LocalStack | 2 semanas |
 | [MODULO_10_KUBERNETES.md](MODULO_10_KUBERNETES.md) | ☸️ Pods, Deployments, Services, Helm | 2 semanas |
 | [MODULO_11_TERRAFORM.md](MODULO_11_TERRAFORM.md) | 🏗️ IaC, HCL, Modules, State Management | 1 semana |
+| [MODULO_12_SEGURANCA.md](MODULO_12_SEGURANCA.md) | 🔐 OAuth2, Keycloak, JWT, Service-to-Service | 1 semana |
+| [MODULO_13_SPRING_MODULITH.md](MODULO_13_SPRING_MODULITH.md) | 🧩 Modulith, Arquitetura, Idempotência AOP | 1 semana |
 
 ### Projeto Prático
 
 | Arquivo | Conteúdo | Duração |
 |---------|----------|---------|
-| [PROJETO_INTEGRADOR.md](PROJETO_INTEGRADOR.md) | 🏦 Sistema Pix Completo (AWS + K8s + Terraform) | 7-8 semanas |
+| [PROJETO_INTEGRADOR.md](PROJETO_INTEGRADOR.md) | 🏦 Sistema Pix Completo (AWS + K8s + Terraform) | 8-10 semanas |
 
 ---
 
@@ -85,12 +87,12 @@ Estudar teoria e implementar no mesmo dia, seguindo o [ROTEIRO_IMPLEMENTACAO.md]
 
 | Sprint | Foco | Módulos Teóricos |
 |--------|------|------------------|
-| 0 | Setup + DDD (Value Objects) | 3 (OOP/SOLID) |
-| 1 | Account Service (Hexagonal) | 4 (Spring), 5 (JPA) |
-| 2 | Transfer Service (Event Sourcing) | 1 (Streams), 6 (Arquitetura) |
-| 3 | Kafka + CQRS | 6 (Kafka), 1 (Concorrência) |
-| 4 | API Gateway + Discovery | 6 (Microsserviços) |
-| 5 | Docker + CI/CD + Tracing | 7 (Testes), 8 (DevOps) |
+| 0 | Setup + DDD (Value Objects) + Modulith | 3 (OOP/SOLID), 13 (Modulith) |
+| 1 | Account Service (Hexagonal) | 4 (Spring), 5 (JPA), 13 (Modulith) |
+| 2 | Transfer Service (Event Sourcing) + Idempotência | 1 (Streams), 6 (Arquitetura), 13 |
+| 3 | Kafka + CQRS + Contract Testing | 6 (Kafka), 7 (Contract) |
+| 4 | API Gateway + Keycloak OAuth2 | 6 (Microsserviços), 12 (Segurança) |
+| 5 | Docker + CI/CD + DevSecOps | 7 (Testes), 8 (DevOps) |
 | 6 | 🆕 Pix Automático (2025) | State Machine, Scheduler |
 | 7 | 🆕 Pix Parcelado (2025) | Strategy Pattern, Cálculos |
 | 8 | ☸️ Kubernetes | 10 (Kubernetes) |
